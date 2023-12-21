@@ -23,7 +23,15 @@ body {
 }
 
 .container-clear3 {
-    margin-top: 250px;
+    margin-top: 300px;
+}
+
+.container-clear4 {
+    margin-top: 50px;
+}
+
+.container-clear5 {
+    margin-top: 50px;
 }
 
 .container-relative {
@@ -112,8 +120,7 @@ ul {
     color: #358DFE;
 }
 
-.width-341 {
-}
+.width-341 {}
 
 #menu li a:hover i {
     color: black;
@@ -204,6 +211,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
 }
 
 .flex-icerik {
@@ -271,6 +279,23 @@ ul {
     width: 90%;
 }
 
+.big-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-icerik {
+    width: 186px;
+}
+
+.big-icerik-title {
+    margin-bottom: 0.75rem;
+}
+
+.big-icerik-image {
+    position: relative;
+}
+
 #ilk-iki {
     margin: 0 2rem;
     display: flex;
@@ -311,6 +336,11 @@ ul {
     position: absolute;
 }
 
+#roket-div {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+}
 
 .icons {
     display: flex;
@@ -324,38 +354,61 @@ ul {
 }
 
 #world-icon {
-    color: black;
     position: absolute;
     top: 12px;
     left: 12px;
 }
 
 #seo-icon {
-    color: black;
     position: absolute;
     top: 19px;
     left: 10px;
 }
 
 #sapka-icon {
-    color: black;
     position: absolute;
     top: 14px;
     left: 9px;
 }
 
 #sapka-icon {
-    color: black;
     position: absolute;
     top: 14px;
     left: 9px;
 }
 
 #ads-icon {
-    color: black;
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+#metin-icon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 25px;
+}
+
+#game-icon {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 20px;
+}
+
+#atac-icon {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    width: 25px;
+}
+
+#dosya-icon {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    width: 20px;
 }
 
 #kimler-icin-text {
@@ -412,4 +465,8 @@ img {
 
 .height {
     height: 604px;
+}
+
+.height2 {
+    height: 667px;
 }
