@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container-clear {
+    margin-top: 450px;
+}
+
+.container-clear2 {
+    margin-top: 250px;
+}
+
+.container-clear3 {
+    margin-top: 250px;
+}
+
+.container-relative {
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header.container {
+    margin-bottom: 2rem;
+}
+
+#img {
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#login ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login ul li {
+    margin: 0 0.5rem;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu ul li {
+    margin: 1rem;
+}
+
+#menu ul li .active-button {
+    color: #358DFE;
+}
+
+#menu ul li a:hover {
+    color: #358DFE;
+}
+
+.click {
+    cursor: pointer;
+}
+
+.default-button {
+    height: 42.75px;
+    padding: 0 2rem;
+    border: 1px solid #358DFE;
+    background-color: #358DFE;
+    color: white;
+    border-radius: 42.75px;
+}
+
+.default-button:hover {
+    border: 1px solid #358DFE;
+    background-color: rgba(0, 0, 0, 0);
+    color: #358DFE;
+}
+
+.width-341 {
+}
+
+#menu li a:hover i {
+    color: black;
+}
+
+.blue-text {
+    color: #358DFE;
+}
+
+.big-img {
+    width: 768px;
+}
+
+.big-text {
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.mid-text {
+    font-size: 1.3rem;
+}
+
+#seo-takvimi-desc {
+    width: 455px;
+}
+
+#seo-takvimi-buttons {
+    margin-top: 2.5rem;
+}
+
+#topluluk-desc {
+    width: 410px;
+}
+
+#boost-desc {
+    width: 456px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: 305px;
+}
+
+.buttons {
+    display: inline-flex;
+}
+
+#basla {
+    margin-top: 1rem;
+}
+
+#basla2 {
+    margin-right: 1rem;
+}
+
+.iceriks {
+    position: relative;
+}
+
+.icerikler {
+    max-width: 1300px;
+    display: inline-flex;
+    text-align: center;
+    margin-left: calc(50% - 7rem - 189px - 101.5px);
+    /* 189 solundaki okun widthi 101.5 de yazının widthinin yarısı 7remde okun margini */
+}
+
+.orta-icerikler {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+
+#dikey-orta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-icerik {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0.75rem;
+}
+
+#sol {
+    margin-top: 2rem;
+}
+
+.minik-icerik {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 208.5px;
+    height: 148.5px;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.minik-icerik-desc {
+    width: 50%;
+    text-align: center;
+}
+
+.minik-icerik-desc2 {
+    width: 69%;
+    text-align: center;
+}
+
+.minik-icerik-desc3 {
+    width: 75%;
+    text-align: center;
+}
+
+.minik-icerik-image {
+    position: relative;
+}
+
+.orta-icerik {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 243px;
+}
+
+#orta-icerik-2 {
+    margin-top: 7rem;
+}
+
+.orta-icerik-class {
+    display: inline-flex;
+}
+
+.orta-icerik-title {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+}
+
+.orta-icerik-orta-yazi {
+    width: 90%;
+}
+
+#ilk-iki {
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#seo>div {
+    font-size: 2rem;
+    margin: 0.75rem 0;
+}
+
+#ok-sag {
+    margin-left: 7rem;
+    transform: rotate(-5deg);
+}
+
+#ok-sol {
+    margin: 0 auto;
+    transform: rotate(5deg);
+}
+
+#ok-sol-div {
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+#marketing-div {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 5rem;
+}
+
+#metaverse-div {
+    display: inline-flex;
+    position: absolute;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    width: 100%;
+}
+
+#background-blue-icon {
+    position: relative;
+}
+
+#world-icon {
+    color: black;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+#seo-icon {
+    color: black;
+    position: absolute;
+    top: 19px;
+    left: 10px;
+}
+
+#sapka-icon {
+    color: black;
+    position: absolute;
+    top: 14px;
+    left: 9px;
+}
+
+#sapka-icon {
+    color: black;
+    position: absolute;
+    top: 14px;
+    left: 9px;
+}
+
+#ads-icon {
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#kimler-icin-text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sayilar {
+    background-color: #182343;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.3rem 0.75rem;
+}
+
+.sayilar-div {
+    margin: 0.3rem 0;
+    margin-bottom: 1.3rem;
+}
+
+.select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (max-width: 1310px) {
+
+    .container {
+        margin: 0 0.5rem;
+    }
+
+}
+
+@media (min-height: 1580px) {
+    header {
+        width: 100%;
+        position: fixed;
+        left: 10%;
+    }
+}
+
+.height {
+    height: 604px;
+}
