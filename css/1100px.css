@@ -1,0 +1,84 @@
+.flex-icerik {
+    flex-direction: column;
+}
+
+.big-img {
+    margin: 0 auto;
+}
+
+.flex-icerik {
+    align-items: center;
+    margin: 0.75rem;
+}
+
+#sol {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+#big-container {
+    margin-top: 400px;
+}
+
+header.container {
+    margin-bottom: 0;
+}
+
+.flex-icerik {
+    margin: 0;
+}
+
+#metaverse {
+    width: 60vw;
+}
+
+#marketing {
+    width: 85%;
+}
+
+#marketing-div {
+    justify-content: flex-end;
+}
+
+#dikey-orta {
+    height: 60vw;
+}
+
+#dikey-orta2 {
+    height: 60vw;
+}
+
+.height4 {
+    margin: 0;
+}
+
+#height4 {
+    margin-top: 150px;
+}
+
+#roket {
+    width: 75%;
+}
+
+#roket-div {
+    justify-content: flex-end;
+}
+
+.height {
+    height: 50vw;
+}
+
+.clear2 {
+    height: 0;
+    margin: 0;
+}
+
+.clear3 {
+    height: 100px;
+    margin: 0;
+}
+
+#dikey-orta {
+    height: auto;
+}

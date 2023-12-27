@@ -34,6 +34,12 @@ body {
     position: relative;
 }
 
+.container-relative2 {
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+}
+
 .clear {
     width: 100%;
     height: 100px;
@@ -251,6 +257,13 @@ ul {
     height: 100%;
 }
 
+#dikey-orta2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
 .flex-icerik {
     display: flex;
     justify-content: space-between;
@@ -452,15 +465,15 @@ ul {
 #sifirbir-icon {
     color: white;
     position: absolute;
-    top: 1.1rem;
-    right: 7.5rem;
+    top: 1.25rem;
+    left: 3.5rem;
 }
 
 #sifiriki-icon {
     color: white;
     position: absolute;
-    top: 1.2rem;
-    left: 6.1rem;
+    top: 1.25rem;
+    left: 3.5rem;
 }
 
 #alphabet-folder-icon {
@@ -572,6 +585,10 @@ img {
     height: 667px;
 }
 
+.height4 {
+    height: 50px;
+}
+
 .veri-text {
     display: flex;
     flex-direction: column;
@@ -590,7 +607,7 @@ img {
 .veri-big-text {
     display: flex;
     position: absolute;
-    top: 400px;
+    top: 350px;
     left: 125px;
 }
 
@@ -655,365 +672,6 @@ footer.container {
     display: none !important;
 }
 
-@media (max-width: 1200px) {
-    #uzun-sol-ok {
-        display: none;
-    }
-}
-
-@media (max-width: 1100px) {
-
-    .flex-icerik {
-        flex-direction: column;
-    }
-
-    .big-img {
-        margin: 0 auto;
-    }
-
-    .flex-icerik {
-        align-items: center;
-        margin: 0.75rem 0.75rem;
-    }
-
-    #sol {
-        text-align: center;
-        margin-bottom: 1rem;
-        margin-top: 0;
-    }
-
-    #big-container {
-        margin-top: 400px;
-    }
-
-    header.container {
-        margin-bottom: 0;
-    }
-
-    .flex-icerik {
-        margin: 0;
-    }
-
-    #metaverse {
-        width: 60vw;
-    }
-
-    #marketing {
-        width: 85%;
-    }
-
-    #marketing-div {
-        justify-content: flex-end;
-    }
-
-    #dikey-orta {
-        height: 60vw;
-    }
-
-    .height4 {
-        margin: 0;
-    }
-
-    #height4 {
-        margin-top: 150px;
-    }
-
-    #roket {
-        width: 75%;
-    }
-
-    #roket-div {
-        justify-content: flex-end;
-    }
-}
-
-@media (max-width: 880px) {
-
-    .active {
-        display: none !important;
-    }
-
-    .deactive {
-        display: flex !important;
-    }
-
-    #menu {
-        position: absolute;
-        background-color: white;
-        right: 0;
-        top: 113px;
-        opacity: .9;
-    }
-
-    #menu ul {
-        flex-direction: column;
-    }
-
-    #menu ul li {
-        margin: 1rem 2rem;
-    }
-
-    .big-img {
-        width: 100%;
-    }
-
-    #ilk-iki {
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-    }
-
-    .orta-icerikler {
-        margin-top: 5rem
-    }
-
-    .orta-icerik {
-        width: 100%;
-    }
-
-    #orta-icerik-2 {
-        margin: 0;
-    }
-
-    #big-container {
-        width: 100%;
-        height: 60vh;
-    }
-
-    #ok-sag {
-        margin-left: 0;
-    }
-
-    .icerikler {
-        margin-left: calc(50% - 189px - 101.5px);
-        /* 189 solundaki okun widthi 101.5 de yazının widthinin yarısı*/
-    }
-
-    #marketing {
-        width: 40%;
-    }
-
-    #marketing-div {
-        top: 5vh;
-    }
-
-    #metaverse {
-        width: 55vw;
-    }
-
-    #roket {
-        width: 50%;
-    }
-
-    #roket-div {
-        top: 100px;
-    }
-
-    #ok-sol-div {
-        display: none;
-    }
-
-    #height3 {
-        margin-top: 0;
-    }
-
-    .height4 {
-        margin: 0px;
-    }
-
-    .big-icons {
-        flex-direction: column;
-    }
-
-    .big-icerik {
-        width: 100%;
-        margin: 1rem 0;
-    }
-
-    #big-container {
-        margin-top: 200px
-    }
-}
-
-@media (max-width: 740px) {
-
-    .icons {
-        margin: 0;
-    }
-
-    .minik-icerik {
-        width: 160px;
-    }
-
-    #marketing {
-        display: none;
-    }
-
-    #metaverse {
-        display: none;
-    }
-
-    #roket-div {
-        display: none;
-    }
-
-    #marketing-div {
-        top: 40vh;
-    }
-
-    #height4 {
-        margin: 0;
-    }
-
-    #dikey-orta {
-        height: auto;
-    }
-
-    .height {
-        height: auto;
-        margin: 0;
-    }
-
-    .images-image {
-        width: 100%;
-    }
-
-    .images-image2 {
-        width: 100%;
-    }
-
-    .images-img {
-        display: inline !important;
-        width: 160px;
-        height: 152px;
-    }
-
-    .images {
-        flex-direction: row;
-        margin: 1rem;
-    }
-
-    #footer-logo {
-        width: 100%;
-    }
-
-}
-
-
-@media (max-width: 600px) {
-
-    #ok-sag {
-        display: none;
-    }
-
-    #kimler-icin-text {
-        display: none;
-    }
-
-    .icerikler {
-        margin-left: calc(50% - 101.5px);
-        /* 189 solundaki okun widthi 101.5 de yazının widthinin yarısı*/
-    }
-
-    .orta-icerikler {
-        margin: 0;
-        top: 100px;
-    }
-}
-
-@media (max-width: 500px) {
-
-    #big-container {
-        width: 100%;
-        height: 75vh;
-    }
-
-    #seo-takvimi-desc {
-        width: 100%;
-    }
-
-    #boost-desc {
-        width: 100%;
-    }
-
-    #basla2 {
-        margin-right: 0.25rem;
-    }
-
-    #img-businessman {
-        width: 100%;
-    }
-
-    #footer-ilk-kisim {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #footer-logo-div,
-    .footer-links,
-    #footer-social {
-        margin: 1rem 0;
-        width: 100%;
-    }
-
-    #big-container {
-        margin-top: 165px
-    }
-
-    .images {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 350px) {
-
-    #header-logo {
-        width: 100%;
-    }
-
-    #header-buttons {
-        font-size: 2rem;
-    }
-
-    #button2 {
-        padding: 0 2px;
-    }
-
-    #sol {
-        width: 280px;
-    }
-
-    .description {
-        width: 280px;
-    }
-
-    #menu {
-        top: 97px;
-    }
-
-    #big-container {
-        width: 100%;
-        height: 100vh;
-    }
-
-    .icons {
-        justify-content: center;
-        margin: 1rem 0;
-    }
-
-    #sol {
-        width: 100%;
-    }
-
-    .description {
-        width: 100%;
-    }
-
-    #big-container {
-        margin-top: 100px
-    }
-
-    .images {
-        justify-content: center;
-    }
+.deactive2 {
+    display: none;
 }

@@ -1,0 +1,17 @@
+#ok-sag {
+    display: none;
+}
+
+#kimler-icin-text {
+    display: none;
+}
+
+.icerikler {
+    margin-left: calc(50% - 101.5px);
+    /* 189 solundaki okun widthi 101.5 de yazının widthinin yarısı*/
+}
+
+.orta-icerikler {
+    margin: 0;
+    top: 100px;
+}

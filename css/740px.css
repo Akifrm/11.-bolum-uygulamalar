@@ -1,0 +1,55 @@
+.icons {
+    margin: 0;
+}
+
+.minik-icerik {
+    width: 160px;
+}
+
+#marketing {
+    display: none;
+}
+
+#metaverse {
+    display: none;
+}
+
+#roket-div {
+    display: none;
+}
+
+#marketing-div {
+    top: 40vh;
+}
+
+#height4 {
+    margin: 0;
+}
+
+.height {
+    height: auto;
+    margin: 0;
+}
+
+.images-image {
+    width: 100%;
+}
+
+.images-image2 {
+    width: 100%;
+}
+
+.images-img {
+    display: inline !important;
+    width: 160px;
+    height: 152px;
+}
+
+.images {
+    flex-direction: row;
+    margin: 1rem;
+}
+
+#footer-logo {
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+#seo-takvimi-desc {
+    width: 100%;
+}
+
+#boost-desc {
+    width: 100%;
+}
+
+#basla2 {
+    margin-right: 0.25rem;
+}
+
+#img-businessman {
+    width: 100%;
+}
+
+#footer-ilk-kisim {
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-logo-div,
+.footer-links,
+#footer-social {
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.images {
+    justify-content: center;
+}
+
+.clear3 {
+    height: 40vw;
+}
+
+.clear2 {
+    height: 0;
+    margin: 0;
+}
+
+.container-clear4 {
+    margin-top: 70px;
+}
