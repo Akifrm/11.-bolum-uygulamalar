@@ -1,12 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 body {
     background-color: #F3F3F3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -46,18 +51,23 @@ body {
 }
 
 header {
-    max-width: 1300px;
-    display: flex;
-    justify-content: space-between;
     position: sticky;
+    z-index: 10;
     top: 0;
-    z-index: 1;
-    margin: 0;
 }
 
-header.container {
-    margin-bottom: 2rem;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
+
+#header-logo {
+    width: 80%;
+}
+
+/* header.container {
+    margin-bottom: 2rem;
+} */
 
 #img {
     margin-top: 30px;
@@ -112,8 +122,7 @@ ul {
 }
 
 .default-button {
-    height: 42.75px;
-    padding: 0 2rem;
+    padding: 0.6rem 2rem;
     border: 1px solid #358DFE;
     background-color: #358DFE;
     color: white;
@@ -127,8 +136,7 @@ ul {
 }
 
 .kare-button {
-    height: 42.75px;
-    padding: 0 2rem;
+    padding: 0.6rem 2rem;
     border: 1px solid #358DFE;
     background-color: #358DFE;
     color: white;
@@ -374,22 +382,46 @@ ul {
     right: 50%;
 }
 
-#marketing-div {
+.marketing-div {
     display: inline-flex;
     position: absolute;
     right: 0;
     top: 5rem;
 }
 
-#metaverse-div {
+.marketing-div2 {
     display: inline-flex;
+    justify-content: flex-end;
     position: absolute;
+    right: 3.75rem;
+    top: 3rem;
 }
 
-#roket-div {
+.metaverse-div {
+    display: inline-flex;
+    position: absolute;
+    left: 0.25rem;
+}
+
+.metaverse-div2 {
+    display: inline-flex;
+    position: absolute;
+    left: 0rem;
+    top: -3.25rem;
+}
+
+.roket-div {
+    display: inline-flex;
+    position: absolute;
+    right: 5rem;
+    top: -2rem;
+}
+
+.roket-div2 {
     display: inline-flex;
     position: absolute;
     right: 0;
+    top: 0;
 }
 
 .icons {

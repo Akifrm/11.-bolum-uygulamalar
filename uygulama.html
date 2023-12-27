@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -27,33 +29,36 @@
 </head>
 
 <body>
-    <header class="container">
-        <div id="img">
-            <a href="#"><img id="header-logo" src="img/logo-dark.png" alt=""></a>
-        </div>
-        <div id="menu" class="active">
-            <ul>
-                <li><a class="click active-button">Anasayfa</a></li>
-                <li><a class="click">Araçlar <i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a class="click">Blog</a></li>
-                <li><a class="click">İletişim</a></li>
-                <li class="deactive"><a class="click">Giriş Yap</a></li>
-                <li class="deactive"><a class="click">Kayıt Ol</a></li>
-            </ul>
-        </div>
-        <div id="login" class="active">
-            <ul>
-                <li>
-                    <button id="giris" class="default-button">Giriş Yap</button>
-                </li>
-                <li>
-                    <button id="kayit" class="default-button">Kayıt Ol</button>
-                </li>
-            </ul>
-        </div>
-        <div id="header-buttons" class="deactive">
-            <a id="button" class="click" onclick="menuOpen()"><i class="fa-solid fa-bars"></i></a>
-            <a id="button2" class="click" onclick="menuClose()" style=" display: none;"><i class="fa-solid fa-x click"></i></a>
+    <header>
+        <div class="container header">
+            <div id="img">
+                <a href="#"><img id="header-logo" src="img/logo-dark.png" alt=""></a>
+            </div>
+            <div id="menu" class="active">
+                <ul>
+                    <li><a href="#" class="active-button">Anasayfa</a></li>
+                    <li><a href="#">Araçlar <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li class="deactive"><a href="#">Giriş Yap</a></li>
+                    <li class="deactive"><a href="#">Kayıt Ol</a></li>
+                </ul>
+            </div>
+            <div id="login" class="active">
+                <ul>
+                    <li>
+                        <button id="giris" class="default-button">Giriş Yap</button>
+                    </li>
+                    <li>
+                        <button id="kayit" class="default-button">Kayıt Ol</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="header-buttons" class="deactive">
+                <a id="button" class="click" onclick="menuOpen()"><i class="fa-solid fa-bars"></i></a>
+                <a id="button2" class="click" onclick="menuClose()" style=" display: none;"><i
+                        class="fa-solid fa-x"></i></a>
+            </div>
         </div>
     </header>
 
@@ -197,7 +202,8 @@
             </div>
             <div class="container-relative">
                 <div id="ok-sol-div"><img id="ok-sol" src="img/ok-sol.png" alt=""></div>
-                <div id="marketing-div"><img id="marketing" src="img/marketing.png" alt=""></div>
+                <div class="marketing-div2"><img class="marketing" src="img/daire.png" alt=""></div>
+                <div class="marketing-div"><img class="marketing" src="img/marketing.png" alt=""></div>
             </div>
             <div id="height3" class="container-clear2"></div>
             <div class="sayilar-div">
@@ -221,7 +227,8 @@
         <div class="height4" class="container-clear3 clear2"></div>
         <div class="container height">
             <div class="container-relative">
-                <div id="metaverse-div"><img id="metaverse" src="img/metaverse.png" alt=""></div>
+                <div class="metaverse-div2"><img class="metaverse" src="img/daire.png" alt=""></div>
+                <div class="metaverse-div"><img class="metaverse" src="img/metaverse.png" alt=""></div>
             </div>
             <div id="height4" class="container-clear2"></div>
             <div id="dikey-orta">
@@ -250,7 +257,8 @@
         <div class="container-clear4 clear2"></div>
         <div class="container height2">
             <div class="container-relative">
-                <div id="roket-div"><img id="roket" src="img/roket.png" alt=""></div>
+                <div class="roket-div2"><img class="roket" src="img/daire.png" alt=""></div>
+                <div class="roket-div"><img class="roket" src="img/roket.png" alt=""></div>
             </div>
             <div id="dikey-orta2">
                 <div class="sayilar-div">
@@ -448,25 +456,25 @@
             <div class="footer-links">
                 <ul>
                     <li class="mid-text">Bilgi</li>
-                    <li><a class="click">Sık Sorulan Sorular</a></li>
-                    <li><a class="click">SEO Takvimi</a></li>
-                    <li><a class="click">360 Boost</a></li>
+                    <li><a href="#">Sık Sorulan Sorular</a></li>
+                    <li><a href="#">SEO Takvimi</a></li>
+                    <li><a href="#">360 Boost</a></li>
                 </ul>
             </div>
             <div class="footer-links">
                 <ul>
                     <li class="mid-text">Sözleşmeler</li>
-                    <li><a class="click">Gizlilik Sözleşmesi</a></li>
-                    <li><a class="click">Kullanım Sözleşmesi</a></li>
+                    <li><a href="#">Gizlilik Sözleşmesi</a></li>
+                    <li><a href="#">Kullanım Sözleşmesi</a></li>
                 </ul>
             </div>
             <div id="footer-social">
                 <div class="mid-text">Takipte Kal</div>
                 <div id="footer-social-icons">
-                    <a class="click"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="click"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="click"><i class="fa-brands fa-twitter"></i></a>
-                    <a class="click"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </div>

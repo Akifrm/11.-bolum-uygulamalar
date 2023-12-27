@@ -6,19 +6,15 @@
     width: 160px;
 }
 
-#marketing {
+.metaverse {
     display: none;
 }
 
-#metaverse {
+.roket-div {
     display: none;
 }
 
-#roket-div {
-    display: none;
-}
-
-#marketing-div {
+.marketing-div {
     top: 40vh;
 }
 

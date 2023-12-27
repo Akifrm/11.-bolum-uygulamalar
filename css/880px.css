@@ -60,23 +60,23 @@
     /* 189 solundaki okun widthi 101.5 de yazının widthinin yarısı*/
 }
 
-#marketing {
-    width: 40%;
+.marketing {
+    display: none;
 }
 
-#marketing-div {
+.marketing-div {
     top: 4vw;
 }
 
-#metaverse {
-    width: 55vw;
+.metaverse {
+    display: none;
 }
 
-#roket {
-    width: 50%;
+.roket {
+    display: none;
 }
 
-#roket-div {
+.roket-div {
     top: 100px;
 }
 
@@ -159,6 +159,6 @@
     height: auto;
 }
 
-#roket-div {
+.roket-div {
     top:-50px;
 }

@@ -29,16 +29,23 @@ header.container {
     margin: 0;
 }
 
-#metaverse {
-    width: 60vw;
+.metaverse {
+    width: 70%;
 }
 
-#marketing {
-    width: 85%;
+.marketing {
+    width: 65%;
 }
 
-#marketing-div {
+.marketing-div {
     justify-content: flex-end;
+}
+
+.roket-div2 {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 #dikey-orta {
@@ -57,11 +64,12 @@ header.container {
     margin-top: 150px;
 }
 
-#roket {
-    width: 75%;
+.roket {
+    width: 70%;
 }
 
-#roket-div {
+.roket-div,
+.roket-div2 {
     justify-content: flex-end;
 }
 
