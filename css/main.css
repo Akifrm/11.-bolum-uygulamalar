@@ -59,6 +59,10 @@ a {
     height: 100px;
 }
 
+#clear5 {
+    margin-top: 50px;
+}
+
 header {
     position: sticky;
     z-index: 10;
