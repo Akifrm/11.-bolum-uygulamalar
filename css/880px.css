@@ -6,16 +6,23 @@
     display: flex !important;
 }
 
+li.deactive {
+    display: block !important;
+}
+
 #menu {
     position: absolute;
     background-color: white;
     right: 0;
     top: 100px;
     opacity: .9;
+    width: 100%;
+    text-align: center;
 }
 
 #menu ul {
     flex-direction: column;
+    width: 100%;
 }
 
 #menu ul li {

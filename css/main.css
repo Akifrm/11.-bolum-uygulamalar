@@ -11,7 +11,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #343a40;
 }
 
 .container {
@@ -123,20 +123,20 @@ ul {
     align-items: center;
 }
 
-#menu ul {
+#menu .menu-ul {
     display: flex;
     justify-content: space-between;
 }
 
-#menu ul li {
-    margin: 1rem;
+#menu .menu-ul li {
+    padding: 1rem;
 }
 
-#menu ul li .active-button {
+#menu .menu-ul li .active-button {
     color: #358DFE;
 }
 
-#menu ul li a:hover {
+#menu .menu-ul li a:hover {
     color: #358DFE;
 }
 
@@ -704,6 +704,8 @@ img {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .card-img img {
@@ -719,7 +721,7 @@ footer.container {
 }
 
 .footer-links ul li a:hover {
-    color: #358DFE;
+    color: #23272b;
 }
 
 #footer-ilk-kisim {
@@ -740,7 +742,7 @@ footer.container {
 }
 
 #footer-social div a:hover {
-    color: #358DFE;
+    color: #23272b;
 }
 
 #footer-social-icons {
@@ -750,6 +752,12 @@ footer.container {
 
 #footer-footer {
     text-align: center;
+    margin: 0.5rem 0;
+}
+
+footer.container {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .active {
@@ -762,4 +770,30 @@ footer.container {
 
 .deactive2 {
     display: none;
+}
+
+.menu2,
+.menu3,
+.menu4 {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    top: 60px;
+}
+
+.menu3 {
+    top: 49px;
+    right: -96px;
+}
+
+.menu4 {
+    top: 102px;
+    right: -171px;
+}
+
+.araclar:hover .menu2,
+.araclar2:hover .menu3,
+.araclar3:hover .menu4 {
+    display: flex;
 }
