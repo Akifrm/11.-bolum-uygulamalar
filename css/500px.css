@@ -42,3 +42,8 @@
 .container-clear4 {
     margin-top: 70px;
 }
+
+.clear6 {
+    height: 0 !important;
+    margin: 0 !important;
+}
