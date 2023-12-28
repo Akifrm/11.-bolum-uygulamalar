@@ -36,7 +36,6 @@ function menuClose() {
     button.style.display = 'inline';
     button2.style.display = 'none';
     menu.classList.add('active');
-    console.log(i)
     if (i != .9) {
         element.style.opacity = 1;
         element.style.backgroundColor = null;

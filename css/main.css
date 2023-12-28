@@ -54,6 +54,13 @@ a {
     color: white;
 }
 
+.top-mavi {
+    position: absolute;
+    width: 500px;
+    top: 25rem;
+    left: -20rem;
+}
+
 .clear {
     width: 100%;
     height: 100px;
