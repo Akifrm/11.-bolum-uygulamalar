@@ -11,7 +11,7 @@
 }
 
 #img-businessman {
-    width: 100%;
+    display: none;
 }
 
 #footer-ilk-kisim {
@@ -46,4 +46,13 @@
 .clear6 {
     height: 0 !important;
     margin: 0 !important;
+}
+
+.icons {
+    margin-left: 0;
+}
+
+
+.margins {
+    margin-top: 0.75rem;
 }

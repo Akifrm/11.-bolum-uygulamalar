@@ -50,6 +50,11 @@ li.deactive {
 
 #orta-icerik-2 {
     margin: 0;
+    margin-top: 1rem;
+}
+
+.orta-icerik-class {
+    margin-top: 1rem
 }
 
 #big-container {
@@ -104,11 +109,25 @@ li.deactive {
 
 .big-icons {
     flex-direction: column;
+    margin-top: 3rem;
 }
 
 .big-icerik {
     width: 100%;
     margin: 1rem 0;
+}
+
+.big-icerik-image {
+    display: flex;
+    justify-content: center;
+}
+
+#metin-icon, #atac-icon {
+    left: calc(50% - 12.5px);
+}
+
+#game-icon, #dosya-icon {
+    left: calc(50% - 10px);
 }
 
 #big-container {
@@ -178,4 +197,16 @@ li.deactive {
 #menu .menu-ul li {
     padding: 0;
     margin: 0.5rem;
+}
+
+.text-center2 {
+    text-align: center;
+}
+
+.veri-text {
+    margin: 1rem;
+}
+
+#footer-logo {
+    width: 100%;
 }
