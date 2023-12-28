@@ -12,6 +12,7 @@ window.addEventListener("scroll", function () {
     }
 });
 
+let i;
 function menuOpen() {
     const menu = document.getElementById('menu');
     const button = document.getElementById('button');
@@ -21,6 +22,7 @@ function menuOpen() {
     button.style.display = 'none';
     button2.style.display = 'inline';
     menu.classList.remove('active');
+    i = window.getComputedStyle(element).opacity
     element.style.opacity = .9;
     element.style.backgroundColor = 'white';
 }
@@ -34,6 +36,9 @@ function menuClose() {
     button.style.display = 'inline';
     button2.style.display = 'none';
     menu.classList.add('active');
-    element.style.opacity = 1;
-    element.style.backgroundColor = null;
+    console.log(i)
+    if (i != .9) {
+        element.style.opacity = 1;
+        element.style.backgroundColor = null;
+    }
 }
