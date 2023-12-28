@@ -24,7 +24,6 @@
 
 #big-container {
     width: 100%;
-    height: 100vw;
 }
 
 .icons {
@@ -75,4 +74,9 @@
 
 .clear3 {
     height: 40vw !important;
+}
+
+.clear6 {
+    height: 0 !important;
+    margin: 0 !important;
 }
