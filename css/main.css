@@ -182,8 +182,14 @@ ul {
     color: #358DFE;
 }
 
+.big-img-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .big-img {
     width: 768px;
+    /* width: 75%; */
 }
 
 .big-text {

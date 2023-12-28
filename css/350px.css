@@ -19,7 +19,7 @@
 }
 
 #menu {
-    top: 97px;
+    top: 84px;
 }
 
 #big-container {
@@ -50,7 +50,11 @@
 
 .takvimlendirileceksiniz {
     width: 100%;
-    word-wrap:break-word;
+    word-wrap: break-word;
+}
+
+.text-word-wrap {
+    word-wrap: break-word;
 }
 
 #veri-resim2 {
@@ -58,6 +62,10 @@
 }
 
 #veri-text-icerisi {
+    width: 100%;
+}
+
+#veri-text-icerisi2 {
     width: 100%;
 }
 
