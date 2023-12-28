@@ -1,21 +1,3 @@
-.flex-icerik {
-    flex-direction: column;
-}
-
-.big-img {
-    margin: 0 auto;
-}
-
-.flex-icerik {
-    align-items: center;
-    margin: 0.75rem;
-}
-
-#sol {
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 0;
-}
 
 #big-container {
     margin-top: 400px;
@@ -23,29 +5,6 @@
 
 header.container {
     margin-bottom: 0;
-}
-
-.flex-icerik {
-    margin: 0;
-}
-
-.metaverse {
-    width: 70%;
-}
-
-.marketing {
-    width: 65%;
-}
-
-.marketing-div {
-    justify-content: flex-end;
-}
-
-.roket-div2 {
-    display: inline-flex;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
 #dikey-orta {
@@ -62,15 +21,6 @@ header.container {
 
 #height4 {
     margin-top: 150px;
-}
-
-.roket {
-    width: 70%;
-}
-
-.roket-div,
-.roket-div2 {
-    justify-content: flex-end;
 }
 
 .height {

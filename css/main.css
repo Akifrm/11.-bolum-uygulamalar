@@ -32,7 +32,8 @@ a {
 }
 
 .container-clear4 {
-    margin-top: 50px;
+    height: 0 !important;
+    margin-top: 0 !important;
 }
 
 .container-relative {
@@ -43,6 +44,14 @@ a {
     position: relative;
     width: 150px;
     margin: 0 auto;
+}
+
+.absolute-text {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    z-index: 3;
+    color: white;
 }
 
 .clear {
@@ -59,6 +68,7 @@ header {
 .header {
     display: flex;
     justify-content: space-between;
+    height: 100px;
 }
 
 #header-logo {
@@ -70,7 +80,9 @@ header {
 } */
 
 #img {
-    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 ul {
@@ -182,14 +194,18 @@ ul {
     color: #358DFE;
 }
 
+.very-big-text {
+    font-size: 2.2rem;
+}
+
 .big-img-div {
     display: flex;
     justify-content: flex-end;
 }
 
 .big-img {
-    width: 768px;
-    /* width: 75%; */
+    /* width: 768px; */
+    width: 650px;
 }
 
 .big-text {
@@ -285,7 +301,8 @@ ul {
 }
 
 #sol {
-    margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .minik-icerik {
@@ -368,7 +385,7 @@ ul {
 
 #seo>div {
     font-size: 2rem;
-    margin: 0.75rem 0;
+    margin: 0.25rem 0;
 }
 
 #ok-sag {
@@ -388,19 +405,31 @@ ul {
     right: 50%;
 }
 
+.marketing {
+    width: 85%;
+}
+
 .marketing-div {
     display: inline-flex;
     position: absolute;
     right: 0;
     top: 5rem;
+    width: 500px;
+    justify-content: flex-end;
 }
 
 .marketing-div2 {
     display: inline-flex;
     justify-content: flex-end;
     position: absolute;
-    right: 3.75rem;
-    top: 3rem;
+    right: 2.5rem;
+    top: 3.75rem;
+    width: 455px;
+    justify-content: flex-end;
+}
+
+.metaverse {
+    width: 70%;
 }
 
 .metaverse-div {
@@ -416,11 +445,16 @@ ul {
     top: -3.25rem;
 }
 
+.roket {
+    width: 63%;
+}
+
 .roket-div {
     display: inline-flex;
     position: absolute;
     right: 5rem;
     top: -2rem;
+    justify-content: flex-end;
 }
 
 .roket-div2 {
@@ -428,6 +462,7 @@ ul {
     position: absolute;
     right: 0;
     top: 0;
+    justify-content: flex-end;
 }
 
 .icons {
@@ -549,12 +584,12 @@ ul {
 }
 
 .images-image {
-    width: 275px;
+    width: 250px;
 }
 
 .images-image2 {
     position: absolute;
-    width: 275px;
+    width: 250px;
     top: 0;
     left: 0;
     z-index: 1;
@@ -576,7 +611,7 @@ ul {
 }
 
 #seo-kampanya-desc-icerik {
-    width: 300px;
+    width: 466px;
 }
 
 #kimler-icin-text {
@@ -620,11 +655,15 @@ img {
 }
 
 .height2 {
-    height: 667px;
+    height: 500px;
+}
+
+#height3 {
+    margin-top: 175px;
 }
 
 .height4 {
-    height: 50px;
+    height: 0;
 }
 
 .veri-text {

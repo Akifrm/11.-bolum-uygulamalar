@@ -10,7 +10,7 @@
     position: absolute;
     background-color: white;
     right: 0;
-    top: 113px;
+    top: 100px;
     opacity: .9;
 }
 
@@ -61,23 +61,26 @@
 }
 
 .marketing {
-    display: none;
+    width: 50%;
 }
 
-.marketing-div {
-    top: 4vw;
+.marketing-div2 {
+    top: 4.25rem;
+    right: 1.55rem;
 }
 
 .metaverse {
-    display: none;
+    width: 50%;
 }
 
 .roket {
-    display: none;
+    width: 45%;
 }
 
-.roket-div {
-    top: 100px;
+
+.roket-div2 {
+    right: 0;
+    top: -0.75rem;
 }
 
 #ok-sol-div {
@@ -157,8 +160,4 @@
 
 #dikey-orta2 {
     height: auto;
-}
-
-.roket-div {
-    top:-50px;
 }
