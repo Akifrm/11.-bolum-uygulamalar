@@ -1,3 +1,5 @@
+let close;
+
 window.addEventListener("scroll", function () {
     const element = document.getElementsByTagName('header')[0];
     const menu = document.getElementById('menu');
@@ -8,6 +10,8 @@ window.addEventListener("scroll", function () {
         if (menu.classList.item(0) === 'active') {
             element.style.opacity = 1;
             element.style.backgroundColor = null;
+        } else {
+            close = true;
         }
     }
 });
@@ -25,6 +29,7 @@ function menuOpen() {
     i = window.getComputedStyle(element).opacity
     element.style.opacity = .9;
     element.style.backgroundColor = 'white';
+    close = false;
 }
 
 function menuClose() {
@@ -37,6 +42,10 @@ function menuClose() {
     button2.style.display = 'none';
     menu.classList.add('active');
     if (i != .9) {
+        element.style.opacity = 1;
+        element.style.backgroundColor = null;
+    }
+    if (close == true) {
         element.style.opacity = 1;
         element.style.backgroundColor = null;
     }
