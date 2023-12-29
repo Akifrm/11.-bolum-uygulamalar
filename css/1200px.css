@@ -7,6 +7,11 @@
     height: 0;
 }
 
+.images-center {
+    display: flex;
+    justify-content: center;
+}
+
 .minik-icerik {
     width: 40%;
 }

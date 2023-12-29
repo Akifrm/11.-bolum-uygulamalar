@@ -1,0 +1,58 @@
+.marketing {
+    display: none;
+}
+
+.metaverse {
+    display: none;
+}
+
+.roket {
+    display: none;
+}
+
+.marketing-div {
+    top: 40vh;
+}
+
+#height4 {
+    margin: 0;
+}
+
+.height {
+    height: auto;
+ }
+
+.images-image {
+    width: 100%;
+}
+
+.images-image2 {
+    width: 100%;
+}
+
+.images-img {
+    display: inline !important;
+}
+
+.images {
+    flex-direction: row;
+    margin: 1rem;
+}
+
+#footer-logo-div {
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-links {
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#footer-social {
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

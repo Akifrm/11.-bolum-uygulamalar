@@ -583,6 +583,7 @@ ul {
 #alphabet-folder-div {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .images {
@@ -605,8 +606,8 @@ ul {
 .images-image2 {
     position: absolute;
     width: 250px;
-    top: 0;
     left: 0;
+    top: 0;
     z-index: 1;
 }
 
@@ -755,7 +756,8 @@ footer.container {
 
 #footer-social-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 }
 
 #footer-footer {
