@@ -88,3 +88,7 @@
 .images-img {
     width: 100%;
 }
+
+#seo-takvimi-buttons {
+    flex-wrap: wrap
+}
